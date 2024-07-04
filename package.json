@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/githubscientist/ecommerce-backend.git"
+    "url": ""
   },
-  "author": "Sathish Gnanaprakasam",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/githubscientist/ecommerce-backend/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/githubscientist/ecommerce-backend#readme"
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
